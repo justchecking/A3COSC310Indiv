@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen"
+		href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<title>Chatting with an Astronaut</title>
+	<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+	<div class="title" id="title">
+		<h2>Hello, I'm an Astronaut.<br /> Say hi below</h2>
+		<a><i class="fa fa-angle-double-down" style="font-size:48px"></i></a>
+	</div>
+
+	<div class="flex-container">
+		<img class="class=flex-child Ai" src="Ai.gif" id="Ai" alt="Astronaut">
+		<div class="flex-child response typewriter" id="botRespo"></div>
+		<br/>
+	</div>
+	<div class="knowledge">
+		<h2>Ask me Anything!</h2>
+		<input type="text" class="form-control" placeholder="Talk to me..." id="userInput">
+		<br />
+		<button type="button" class="btn btn-danger" id="send" onclick="whatSaid()" value="Reset Form">Chat</button>
+		<button type="button" class="btn btn-success" id="ideas" onclick="fillidea()">Give Idea</button>
+	</div>
+
+	<script src="main.js"></script>
+</body>
+
+</html>

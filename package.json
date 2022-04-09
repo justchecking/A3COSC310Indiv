@@ -1,0 +1,32 @@
+{
+  "name": "a3cosc310-team11.github.io",
+  "version": "1.0.0",
+  "description": "Using the power of our chat engine you can simulate talking to a Astronaut!",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/COSC-310-team-11/A3COSC310-Team11.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/COSC-310-team-11/A3COSC310-Team11.github.io/issues"
+  },
+  "homepage": "https://github.com/COSC-310-team-11/A3COSC310-Team11.github.io#readme",
+  "dependencies": {
+    "cross-fetch": "^3.1.5",
+    "express": "^4.17.3",
+    "natural": "^5.1.13",
+    "node-fetch": "^2.6.7",
+    "sentiment": "^5.0.2",
+    "xhr2": "^0.2.1"
+  },
+  "devDependencies": {
+    "jasmine": "^4.0.2",
+    "nodemon": "^2.0.15"
+  }
+}

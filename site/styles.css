@@ -1,0 +1,98 @@
+.title {
+    background: rgb(3,19,38);
+    background: linear-gradient(180deg, rgba(3,19,38,1) 0%, rgba(7,43,88,1) 100%); 
+    color: #c6cfcd;
+    text-align: center;
+    padding: 75px;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+    
+}
+body{
+    background-color: #5BC3EB;
+}
+
+.response{
+    padding-left: 80px;
+}
+
+.Ai{
+    margin-right: 4px;
+    position: relative;
+    min-height: 1px;
+    width: 20%;
+    height: 20%;
+    transition: transform 1s linear;
+ 
+}
+
+.spin{
+    transition: 3s;
+  transform: rotate(360deg);
+}
+
+.knowledge {
+    background-color: #5BC3EB;
+    color: white;
+    position: sticky;
+    bottom: 0;
+}
+
+ 
+a {
+    color: rgb(141, 131, 131);
+}
+button {
+    background-color: #c2454c;
+}
+
+.user_message{
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(238, 238, 238);
+}
+
+.bot_message{
+    text-align: left;
+    font-size: 25px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+
+
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+  
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 2.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+
+  }
+
+
+
